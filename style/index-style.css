@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+section{
+    background-color: white;
+    width: 100%;
+}
+
+.container-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+
+    width: 100%;
+    padding: 40px 5%;
+}
+
+.areaTexto{
+    flex: 1;
+    min-width: 0;
+    text-align: center;
+}
+
+.areaTexto h2{
+    font-weight: 900;
+    color: #40d64c; 
+}
+
+.titulo-menor{
+    font-size: 20px;
+    letter-spacing: 15px;
+}
+
+.titulo-principal{
+    font-size: 80px;
+}
+
+.areaTexto p{
+    text-align: center;
+    color: gray;
+    line-height: 1.6;
+}
+
+.areaImagem{
+    flex: 0 0 38%;
+
+}
+
+.areaImagem img{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-top: 250px;
+}
